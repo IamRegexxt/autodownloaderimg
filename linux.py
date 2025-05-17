@@ -4,8 +4,8 @@ from PIL import Image
 from io import BytesIO
 from google_images_search import GoogleImagesSearch
 
-api_key = 'AIzaSyAqqNRcMIROIoyzKYRpe31tvrt7SW0XwUo'
-search_engine_id = 'e507118ebe5d24178'
+api_key = ''
+search_engine_id = ''
 gis = GoogleImagesSearch(api_key, search_engine_id)
 
 save_dir = 'data/Unknown'
